@@ -5,7 +5,7 @@
 # MAGIC 
 # MAGIC In this interactive notebook we'll show how to use the Databricks **Kafka streaming connector** with Python to pull data from the built-in Event Hubs-compatible endpoint on the **Azure IoT Hub** service. 
 # MAGIC 
-# MAGIC <img style="float:right" src="https://raw.githubusercontent.com/JimThorstad/iot-e2e-demo/images/iot-e2e-kafka-dlt.png"/>
+# MAGIC <img style="float:right" src="https://raw.githubusercontent.com/JimThorstad/iot-e2e-demo/main/images/iot-e2e-kafka-dlt.png"/>
 # MAGIC 
 # MAGIC * If you configure a *route* between IoT Hub and Azure Event Hubs you can pull messages from Event Hubs, but Databricks does not require this additional configuration. 
 # MAGIC * You can also use the Microsoft *eventhubs streaming connector* in place of Kafka with either IoT Hubs or Event Hubs. To see how this is configured refer to the companion notebook `iot-e2e-00-eventhubs-ingest`.
